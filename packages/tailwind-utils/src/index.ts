@@ -15,8 +15,8 @@ function template(strings: TemplateStringsArray, ...expressions: any[]) {
   return finalString
 }
 
-function merge(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+function merge(...classes: ClassValue[]) {
+  return twMerge(clsx(classes))
 }
 
 const tw = {
