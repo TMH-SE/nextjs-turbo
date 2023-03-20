@@ -22,6 +22,7 @@
     "typescriptreact": "javascript"
   },
   "tailwindCSS.experimental.classRegex": [
-    "tw\\.template`([^`]*)" // tw.template`...`
+    "tw\\.template`([^`]*)", // tw.template`...`
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"] // cva
   ]
 }

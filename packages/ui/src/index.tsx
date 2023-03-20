@@ -1,2 +1,4 @@
 import './styles.css'
-export * from './button'
+
+// components
+export * from './Button'

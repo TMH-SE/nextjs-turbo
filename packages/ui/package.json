@@ -32,5 +32,11 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.4.0",
+    "lucide-react": "^0.126.0",
+    "tailwind-utils": "workspace:*",
+    "tailwindcss-animate": "^1.0.5"
   }
 }
