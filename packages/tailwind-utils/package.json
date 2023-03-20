@@ -2,9 +2,7 @@
   "name": "tailwind-utils",
   "version": "0.0.0",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": "./dist"
-  },
+  "main": "./dist/index.mjs",
   "license": "MIT",
   "scripts": {
     "build": "tsup",
